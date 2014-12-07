@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="300px">
+			<g:at top="10" left="10">
+				<g:TextBox text="Username" readOnly="true"/>
+			</g:at>
+			<g:at top="50" left="10">
+				<g:TextBox text="Password" readOnly="true"/>
+			</g:at>
+			<g:at top="10" left="189">
+				<g:TextBox ui:field="textbox_user"/>
+			</g:at>
+			<g:at top="50" left="189">
+				<g:TextBox ui:field="textbox_pass"/>
+			</g:at>
+			<g:at top="90" left="10">
+				<g:Button text="Accedi" width="173px" height="30px" ui:field="button"/>
+			</g:at>
+			<g:at top="90" left="189">
+				<g:Button text="Accedi come non registrato" ui:field="button_1"/>
+			</g:at>
+			<g:at top="126" left="10">
+				<g:Button text="Registrazione" width="352px" height="30px" ui:field="button_2"/>
+			</g:at>
+			<g:at top="260" left="357">
+				<g:Button width="83px" height="30px" ui:field="button_3">Esci</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,44 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="300px">
+			<g:at top="10" left="120">
+				<g:TextBox text="Nome Evento" readOnly="true"/>
+			</g:at>
+			<g:at top="60" left="120">
+				<g:TextBox readOnly="true" ui:field="luogo_evento"/>
+			</g:at>
+			<g:at top="100" left="10">
+				<g:TextBox text="Ora" readOnly="true"/>
+			</g:at>
+			<g:at top="100" left="189">
+				<g:TextBox text="Giorno:" readOnly="true"/>
+			</g:at>
+			<g:at top="140" left="10">
+				<g:TextBox ui:field="ora"/>
+			</g:at>
+			<g:at top="140" left="189">
+				<g:TextBox ui:field="giorno"/>
+			</g:at>
+			<g:at top="180" left="10">
+				<g:ListBox visibleItemCount="5" width="352px" height="96px"/>
+			</g:at>
+			<g:at top="180" left="368">
+				<g:Button ui:field="cancella">Cancella</g:Button>
+			</g:at>
+			<g:at top="216" left="368">
+				<g:Button ui:field="salva_modifiche">Salva modifiche</g:Button>
+			</g:at>
+			<g:at top="27" left="341">
+				<g:Button text="Partecipa ad altro evento" ui:field="vai_partecipa_eventi">Partecipa evento</g:Button>
+			</g:at>
+			<g:at top="140" left="367">
+				<g:Button ui:field="aggiungi">Aggiungi</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
